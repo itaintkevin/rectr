@@ -41,22 +41,22 @@ export default function Section_5() {
             <Image src={arrow} alt="" />
           </div>
         </div>
-        <div className='flex flex-col items-center'>
-          <div className='text-center py-[4.75rem]'>
+        <div className='flex flex-col items-center text-[1.4rem] font-semibold'>
+          <div className='text-center py-[4.25rem]'>
             40% <br/> <span className='text-[#03B5AA]'>than current market</span>.
           </div>
-            <div className='text-center py-[4.75rem]'>
+            <div className='text-center py-[4rem]'>
             No <br/> compromise
           </div>
-          <div className='py-[5.5rem]'>
+          <div className='py-[5.15rem]'>
             Gen Z & Millineals
           </div>
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center text-[1.4rem] font-semibold pt-[1rem]'>
         <div className='flex justify-center'>
           <div className='flex items-center'>Security</div>
-          <Image src={triangle} alt=""/>
+          <Image className="h-[18rem] w-[18rem]"  src={triangle} alt=""/>
           <div className='flex items-center'>Efficiency</div>
         </div>
         <div className='py-[2rem]'>Easy to use</div>
