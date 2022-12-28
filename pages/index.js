@@ -8,8 +8,7 @@ import Section_5 from '../src/components/Section_5'
 import Section_6 from '../src/components/Section_6'
 import Section_7 from '../src/components/Section_7'
 import Section_8 from '../src/components/Section_8'
-import Section_9 from '../src/components/Section_9'
- 
+
 export default function Home() {
   return (
     <>
@@ -29,7 +28,6 @@ export default function Home() {
         <Section_6 />
         <Section_7 />
         <Section_8 />
-        <Section_9 />
       </main>
     </>
   )

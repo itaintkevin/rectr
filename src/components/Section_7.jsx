@@ -1,16 +1,14 @@
-import React from 'react'
+import Image from 'next/image'
 
-export default function Section_7() {
+export default function Section_8() {
   return (
     <div>
-      <p>
-      we make your Inbox valuable, with discounts and upcoming features. 
-      </p>
-      <button>Join Us</button>
-      <p>
-      Get ahead of people who don&apos;t.
-      </p>
-      <p>See you there...</p>
+        <h1>Core Team</h1>
+        <div>
+            <Image/>
+            <p></p>
+            <p></p>
+        </div>
     </div>
   )
 }
