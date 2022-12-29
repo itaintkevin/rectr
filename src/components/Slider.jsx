@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div>
       <Swiper
-        speed={1500}
+        speed={1000}
         style={{
           "--swiper-pagination-color": "#03B5AA",
           "--swiper-navigation-color": "#000",
