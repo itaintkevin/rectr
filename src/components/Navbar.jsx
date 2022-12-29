@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import rectrMobileLogo from '../assets/Navbar/rectr-mobile-logo.svg'
 import mobileMenu from '../assets/Navbar/mobile-menu.svg'
+import { motion } from "framer-motion"
 
 export default function Navbar() {
 
@@ -14,6 +15,20 @@ export default function Navbar() {
         : setMobileNav(false)
   }
   
+  const Animation = {
+    offscreen: {
+      y: 50
+    },
+    onscreen: {
+      y: 0,
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 0.8
+      }
+    }
+  };
+
   return (
     <>
     <div className='flex justify-between items-center border-b-2 border-[#03B5AA]'>
@@ -28,22 +43,29 @@ export default function Navbar() {
             <Image src={mobileMenu} alt='Mobile Menu' />
         </button>
     </div>
-    {mobileNav && <div className='z-10 fixed top-0 left-0 w-screen bg-white pt-[2rem]'>
-        <ul className='flex flex-col items-start justify-start h-screen w-full text-[2rem] font-bold pl-[2.5rem] pt-[3rem]'>
+    { mobileNav && 
+        <motion.div 
+            className='z-10 fixed top-0 left-0 w-screen bg-white pt-[2rem]'
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true, amount: 0.8 }}
+        >
             <button onClick={handleMobileNav}>
-                <AiOutlineCloseCircle className='fixed top-10 right-10 h-10 w-10'/>
+                    <AiOutlineCloseCircle className='fixed top-10 right-10 h-10 w-10'/>
             </button>
-            <li className='py-[1rem]'>What we do</li>
-            <li className='py-[1rem]'>What&apos;s new</li>
-            <li className='py-[1rem]'>What you get</li>
-            <li className='py-[1rem]'>How it works</li>
-            <li className='py-[1rem]'>Results</li>
-            <li className='py-[1rem]'>Join the story of Rectr</li>
-            <li className='py-[1rem]'>Contact Us</li>
-            <li className='py-[1rem]'>Core Team</li>
-            <li className='py-[1rem]'>FAQ</li>
-        </ul>
-    </div>}
+            <motion.ul className='flex flex-col items-start justify-start h-screen w-full text-[2rem] font-bold pl-[2.5rem] pt-[3rem]' variants={Animation}>
+                <li className='py-[1rem]'>What we do</li>
+                <li className='py-[1rem]'>What&apos;s new</li>
+                <li className='py-[1rem]'>What you get</li>
+                <li className='py-[1rem]'>How it works</li>
+                <li className='py-[1rem]'>Results</li>
+                <li className='py-[1rem]'>Join the story of Rectr</li>
+                <li className='py-[1rem]'>Contact Us</li>
+                <li className='py-[1rem]'>Core Team</li>
+                <li className='py-[1rem]'>FAQ</li>
+            </motion.ul>
+        </motion.div>
+    }
     </>
   )
 }
