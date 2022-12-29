@@ -31,7 +31,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Keyboard, Pagination, Navigation]}
-        className="w-[80%] h-[100%] pb-[3rem]"
+        className="w-[100%] xs:w-[85%] h-[100%] pb-[3rem]"
       >
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
           <div className='px-20 py-28 rounded-2xl shadow-lg'>
