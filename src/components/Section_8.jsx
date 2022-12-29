@@ -25,7 +25,7 @@ export default function Section_9() {
 
 
   return (
-    <div className='bg-[#03B5AA] rounded-t-[25px] shadow-2xl px-[3rem] mt-[3rem] text-white'>
+    <div className='bg-[#03B5AA] rounded-t-[25px] shadow-2xl px-[3rem] pt-[3rem] mt-[3rem] text-white'>
       <div className='flex justify-between w-full'>
         <div className='w-[85%]'>
           <h1 className='text-[3.4rem] pb-[1.2rem]'>FAQ ?</h1>
