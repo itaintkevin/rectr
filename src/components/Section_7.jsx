@@ -34,7 +34,7 @@ export default function App() {
         className="w-[80%] h-[100%] pb-[3rem]"
       >
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
-          <div className='px-20 py-28 rounded-2xl shadow-2xl'>
+          <div className='px-20 py-28 rounded-2xl shadow-lg'>
             <div className='bg-black shadow-2xl rounded-full h-56 w-56'>
               <Image src={""} alt="" />
             </div>
@@ -43,7 +43,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
-        <div className='px-20 py-28 rounded-2xl shadow-2xl'>
+        <div className='px-20 py-28 rounded-2xl shadow-lg'>
             <div className='bg-black rounded-full h-56 w-56'>
               <Image src={""} alt="" />
             </div>
