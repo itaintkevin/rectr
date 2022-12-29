@@ -21,7 +21,8 @@ export default function App() {
           "--swiper-navigation-color": "#000",
           "--swiper-navigation-size": "25px",
         }}
-        slidesPerView={1}
+        speed={1500}
+        slidesPerView={"auto"}
         spaceBetween={30}
         keyboard={{
           enabled: true,

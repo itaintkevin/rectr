@@ -2,27 +2,27 @@ import Image from 'next/image'
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import 'swiper/css/effect-fade';
 
 // import required modules
-import { Autoplay, Keyboard, Pagination, Navigation } from "swiper";
+import { EffectCreative, Autoplay, Keyboard, Pagination, Navigation } from "swiper";
 
 export default function App() {
   return (
     <div>
       <Swiper
+        speed={1500}
         style={{
           "--swiper-pagination-color": "#03B5AA",
           "--swiper-navigation-color": "#000",
           "--swiper-navigation-size": "20px",
         }}
-        slidesPerView={1}
-        spaceBetween={30}
-        centeredSlides={true}
+        slidesPerView={'auto'}
+        spaceBetween={0}
         autoplay={{
             delay: 2000,
             disableOnInteraction: false,
