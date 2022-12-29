@@ -41,7 +41,7 @@ export default function Section_9() {
 
   const dropAnimation = {
     offscreen: {
-      y: 10
+      y: 20
     },
     onscreen: {
       y: 0,
