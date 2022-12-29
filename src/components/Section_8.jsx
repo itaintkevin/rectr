@@ -39,6 +39,20 @@ export default function Section_9() {
     }
   };
 
+  const dropAnimation = {
+    offscreen: {
+      y: 10
+    },
+    onscreen: {
+      y: 0,
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 0.8
+      }
+    }
+  };
+
   return (
     
     <motion.div 
@@ -68,9 +82,9 @@ export default function Section_9() {
                   whileInView="onscreen"
                   viewport={{ once: true, amount: 0.8 }}
                 >
-                  <motion.p className='py-[0.5rem]' variants={Animation}><span className='text-black font-bold'>Download</span> the app from play store ( Launching  Soon).</motion.p>
-                  <motion.p className='py-[0.5rem]' variants={Animation}><span className='text-black font-bold'>Search</span> the desired Rental house you prefer from filters and search.Absolutely Free.</motion.p>
-                  <motion.p className='text-black py-[0.5rem] font-bold' variants={Animation}>Register. Scheduled-Visit. Own-it.</motion.p>
+                  <motion.p className='py-[0.5rem]' variants={dropAnimation}><span className='text-black font-bold'>Download</span> the app from play store ( Launching  Soon).</motion.p>
+                  <motion.p className='py-[0.5rem]' variants={dropAnimation}><span className='text-black font-bold'>Search</span> the desired Rental house you prefer from filters and search.Absolutely Free.</motion.p>
+                  <motion.p className='text-black py-[0.5rem] font-bold' variants={dropAnimation}>Register. Scheduled-Visit. Own-it.</motion.p>
                 </motion.div>
               }
             </motion.div>
@@ -91,8 +105,8 @@ export default function Section_9() {
                   whileInView="onscreen"
                   viewport={{ once: true, amount: 0.8 }}
                 >
-                  <motion.p className='py-[0.5rem]' variants={Animation}>For Now we accepting Rental house around <span className='font-bold'>Tamilnadu.</span></motion.p>
-                  <motion.p className='py-[0.5rem]' variants={Animation}>Submit Your Property for Free.</motion.p>
+                  <motion.p className='py-[0.5rem]' variants={dropAnimation}>For Now we accepting Rental house around <span className='font-bold'>Tamilnadu.</span></motion.p>
+                  <motion.p className='py-[0.5rem]' variants={dropAnimation}>Submit Your Property for Free.</motion.p>
                 </motion.div>
               }
             </motion.div>
