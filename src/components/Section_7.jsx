@@ -48,7 +48,7 @@ export default function App() {
               <Image src={""} alt="" />
             </div>
             <p className='pt-10'>Dhanush</p>
-            <p>Front-end</p>
+            <p className='text-[#03B5AA]'>Front-end</p>
           </div>
         </SwiperSlide>
       </Swiper>
