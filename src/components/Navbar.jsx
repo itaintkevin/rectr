@@ -28,7 +28,7 @@ export default function Navbar() {
             <Image src={mobileMenu} alt='Mobile Menu' />
         </button>
     </div>
-    {mobileNav && <div className='z-10 fixed top-0 left-0 w-screen bg-white'>
+    {mobileNav && <div className='z-10 fixed top-0 left-0 w-screen bg-white pt-[2rem]'>
         <ul className='flex flex-col items-start justify-start h-screen w-full text-[2rem] font-bold pl-[2.5rem] pt-[3rem]'>
             <button onClick={handleMobileNav}>
                 <AiOutlineCloseCircle className='fixed top-10 right-10 h-10 w-10'/>

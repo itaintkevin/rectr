@@ -6,7 +6,7 @@ import img3 from '../assets/Section_2/whatsnew-img-3.png'
 export default function Section_2() {
   return (
     <div className='pl-[1.4rem]'>
-        <h1 className='text-[2.2rem] pt-[5rem]'>
+        <h1 className='text-[2.2rem] pt-[6rem]'>
             Innovation in <br/> every tap
         </h1>
         <div className='pt-[2rem] pb-[3rem]'>
@@ -17,7 +17,7 @@ export default function Section_2() {
             <Image src={img2} alt=" "/>
             <p className='text-[1.2rem] text-[#575050] text-end pt-[1rem]'>Personalized content <br/> according to your interest.</p>
         </div>
-        <div className='pt-[2rem] pb-[3rem]'>
+        <div className='pt-[2rem]'>
             <Image src={img3} alt=" "/>
             <p className='text-[1.2rem] text-[#575050] pt-[1rem]'>Choose the Host or tenant <br/> who match your mindset</p>
         </div>
