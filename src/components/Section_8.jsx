@@ -71,9 +71,9 @@ export default function Section_9() {
               whileInView="onscreen"
               viewport={{ once: true, amount: 0.8 }}
             >
-              <motion.div className='flex items-center justify-between' variants={Animation}>
+              <motion.div className='flex items-center justify-between' variants={Animation} onClick={handleDropDown1}>
                 <h1 className='text-[1.6rem]'>How to use </h1>
-                <button className='text-black' onClick={handleDropDown1}>{  dropdown1 ? <IoIosArrowUp size={20}/> : <IoIosArrowDown size={20}/>}</button>
+                <button className='text-black'>{  dropdown1 ? <IoIosArrowUp size={20}/> : <IoIosArrowDown size={20}/>}</button>
               </motion.div>
               {dropdown1 && 
                 <motion.div 
@@ -94,9 +94,9 @@ export default function Section_9() {
               whileInView="onscreen"
               viewport={{ once: true, amount: 0.8 }}
             >
-              <motion.div className='flex items-center justify-between' variants={Animation}>
+              <motion.div className='flex items-center justify-between' variants={Animation} onClick={handleDropDown2}>
                 <h1 className='text-[1.6rem]'>Host your property</h1>
-                <button className='text-black' onClick={handleDropDown2}>{  dropdown2 ? <IoIosArrowUp size={20}/> : <IoIosArrowDown size={20}/>}</button>
+                <button className='text-black'>{  dropdown2 ? <IoIosArrowUp size={20}/> : <IoIosArrowDown size={20}/>}</button>
               </motion.div>
               {dropdown2 && 
                 <motion.div 
