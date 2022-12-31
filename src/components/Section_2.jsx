@@ -10,11 +10,11 @@ export default function Section_2() {
             Innovation in <br/> every tap
         </h1>
         <div className='pt-[2rem] pb-[3rem]'>
-            <Image src={img1} alt=" "/>
+            <Image className='h-[160px] w-[160px]' src={img1} alt=" "/>
             <p className='text-[1.2rem] text-[#575050] pt-[1rem]'>Preicse search engine <br/> that reflects your search.</p>
         </div>
         <div className='flex flex-col items-end pb-[1rem] pr-[1.4rem]'>
-            <Image src={img2} alt=" "/>
+            <Image className='h-[160px] w-[160px]' src={img2} alt=" "/>
             <p className='text-[1.2rem] text-[#575050] text-end pt-[1rem]'>Personalized content <br/> according to your interest.</p>
         </div>
         <div className='pt-[2rem]'>
