@@ -1,15 +1,13 @@
 import Image from 'next/image'
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-// import required modules
 import { Keyboard, Pagination, Navigation } from "swiper";
+import sresanjai from '../assets/Section_7/sresanjai.webp'
+import dhanush from '../assets/Section_7/dhanush.jpeg'
+import suresh from '../assets/Section_7/suresh.jpg'
 
 export default function App() {
   return (
@@ -37,19 +35,28 @@ export default function App() {
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
           <div className='px-20 py-28 rounded-2xl shadow-lg'>
             <div className='bg-black shadow-2xl rounded-full h-56 w-56'>
-              <Image src={""} alt="" />
+              <Image src={sresanjai} alt="" />
             </div>
             <p className='pt-10'>Sresanjai</p>
             <p className='text-[#03B5AA]'>Founder & CEO</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
-        <div className='px-20 py-28 rounded-2xl shadow-lg'>
+          <div className='px-20 py-28 rounded-2xl shadow-lg'>
             <div className='bg-black rounded-full h-56 w-56'>
-              <Image src={""} alt="" />
+              <Image src={dhanush} alt="" />
             </div>
             <p className='pt-10'>Dhanush</p>
             <p className='text-[#03B5AA]'>Front-end</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='pt-[2rem] pb-[4rem]'>
+          <div className='px-20 py-[57px] rounded-2xl shadow-lg'>
+            <div className='bg-black rounded-full h-56 w-56'>
+              <Image src={suresh} alt="" />
+            </div>
+            <p className='pt-10'>Suresh</p>
+            <p className='text-[#03B5AA]'>Social Media <br/> and Content</p>
           </div>
         </SwiperSlide>
       </Swiper>
