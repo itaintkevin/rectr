@@ -5,7 +5,7 @@ import img3 from '../assets/Section_2/whatsnew-img-3.svg'
 
 export default function Section_2() {
   return (
-    <div className='pl-[1.4rem]'>
+    <div id="section-2" className='pl-[1.4rem]'>
         <h1 className='text-[2.2rem] pt-[6rem]'>
             Innovation in <br/> every tap
         </h1>

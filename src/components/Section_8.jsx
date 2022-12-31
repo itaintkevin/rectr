@@ -56,6 +56,7 @@ export default function Section_9() {
   return (
     
     <motion.div 
+      id="section-8" 
       className='bg-[#03B5AA] rounded-t-[25px] shadow-2xl px-[3rem] pt-[3rem] mt-[3rem] text-white'
       initial="offscreen"
       whileInView="onscreen"

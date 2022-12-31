@@ -13,7 +13,7 @@ import { Keyboard, Pagination, Navigation } from "swiper";
 
 export default function App() {
   return (
-    <div>
+    <div id="section-7">
       <h1 className='text-[2.2rem] pt-[6rem] pb-[2rem] px-[2rem]'>Core Team</h1>
       <Swiper
         style={{

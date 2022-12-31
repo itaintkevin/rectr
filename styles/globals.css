@@ -43,12 +43,15 @@
   align-items: center;
 }
 .swiper-pagination-bullet {
-  padding: 0.2px 9px;
   border-radius: 5px !important; 
+  padding: 0px;
+  transition-property: padding;
+  transition-duration: 1s;
 }
 
 .swiper-pagination-bullet-active {
-  padding: 5px 12px ;
+  padding: 1px 13px ;
+  transition-timing-function: linear;
 }
 
 /* .swiper-button-prev {

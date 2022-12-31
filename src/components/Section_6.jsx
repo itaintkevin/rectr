@@ -3,7 +3,7 @@ import React from 'react'
 export default function Section_6() {
   return (
     <div>
-      <h1 className='text-[2.2rem] px-[1.4rem] pt-[6rem]'>Still a lot getting loaded...</h1>
+      <h1 id="section-6" className='text-[2.2rem] px-[1.4rem] pt-[6rem]'>Still a lot getting loaded...</h1>
       <p className='text-[1.5rem] text-center px-[4rem] pt-[3rem] pb-[1rem]'>
         We make your Inbox <span className='text-[#5DC979]'>valuable</span>, with <span className='text-[#E43F6F]'>discounts</span> and upcoming features. 
       </p>

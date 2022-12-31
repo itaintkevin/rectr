@@ -4,6 +4,7 @@ import { AiOutlineCloseCircle } from 'react-icons/ai'
 import rectrMobileLogo from '../assets/Navbar/rectr-mobile-logo.svg'
 import mobileMenu from '../assets/Navbar/mobile-menu.svg'
 import { motion } from "framer-motion"
+import { Link } from "react-scroll"
 
 export default function Navbar() {
 
@@ -54,15 +55,14 @@ export default function Navbar() {
                     <AiOutlineCloseCircle className='fixed top-10 right-10 h-10 w-10'/>
             </button>
             <motion.ul className='flex flex-col items-start justify-start h-screen w-full text-[2rem] font-bold pl-[2.5rem] pt-[3rem]' variants={Animation}>
-                <li className='py-[1rem]'>What we do</li>
-                <li className='py-[1rem]'>What&apos;s new</li>
-                <li className='py-[1rem]'>What you get</li>
-                <li className='py-[1rem]'>How it works</li>
-                <li className='py-[1rem]'>Results</li>
-                <li className='py-[1rem]'>Join the story of Rectr</li>
-                <li className='py-[1rem]'>Contact Us</li>
-                <li className='py-[1rem]'>Core Team</li>
-                <li className='py-[1rem]'>FAQ</li>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-1" className='py-[1rem]'>What we do</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-2"  className='py-[1rem]'>What&apos;s new</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-3"  className='py-[1rem]'>What you get</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-4"  className='py-[1rem]'>How it works</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-5"  className='py-[1rem]'>Results</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-6"  className='py-[1rem]'>Join the story of Rectr</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-7"  className='py-[1rem]'>Core Team</Link>
+                <Link onClick={handleMobileNav} activeClass="active" spy={true} smooth={true} offset={50} duration={500} to="section-8"  className='py-[1rem]'>FAQ</Link>
             </motion.ul>
         </motion.div>
     }

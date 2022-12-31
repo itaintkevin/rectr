@@ -10,7 +10,7 @@ import rectr from '../assets/Section_4/rectr.svg'
 
 export default function Section_4() {
   return (
-    <div className='text-[1.8rem] px-[1.4rem]'>
+    <div id="section-4" className='text-[1.8rem] px-[1.4rem]'>
         <h1 className='flex items-center text-[2.2rem] pt-[6rem] pb-[3rem]'>
             Inside the Factory.
             <Image className='pl-[0.5rem]' src={headingIcon} alt="heading icon"/>

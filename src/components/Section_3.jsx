@@ -6,7 +6,7 @@ import img4 from '../assets/Section_3/whatyouget-img-4.png'
 
 export default function Section_3() {
   return (
-    <div className='text-[1.2rem] px-[1.4rem]'>
+    <div id="section-3" className='text-[1.2rem] px-[1.4rem]'>
         <h1 className='text-[2.2rem] pt-[6rem]'>What does it Mean <br/> to you.</h1>
         <div className='flex items-center justify-between pt-[3rem]'>
             <p>

@@ -7,7 +7,7 @@ import arrow from '../assets/Section_5/arrow.svg'
 
 export default function Section_5() {
   return (
-    <div className='text-[1.2rem] px-[1.4rem]'>
+    <div id="section-5" className='text-[1.2rem] px-[1.4rem]'>
       <h1 className='text-[2.2rem] pt-[6rem] pb-[1rem]'>We Claim</h1>
       <div className='flex justify-center'>
         <div className='flex flex-col items-center'>
