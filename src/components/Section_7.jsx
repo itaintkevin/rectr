@@ -34,8 +34,8 @@ export default function App() {
       >
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
           <div className='px-20 py-28 rounded-2xl shadow-lg'>
-            <div className='bg-black shadow-2xl rounded-full h-56 w-56'>
-              <Image src={sresanjai} alt="" />
+            <div className='shadow-2xl rounded-full h-56 w-56'>
+              <Image className="rounded-full" src={sresanjai} alt="" />
             </div>
             <p className='pt-10'>Sresanjai</p>
             <p className='text-[#03B5AA]'>Founder & CEO</p>
@@ -43,8 +43,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
           <div className='px-20 py-28 rounded-2xl shadow-lg'>
-            <div className='bg-black rounded-full h-56 w-56'>
-              <Image src={dhanush} alt="" />
+            <div className='rounded-full h-56 w-56'>
+              <Image className="rounded-full" src={dhanush} alt="" />
             </div>
             <p className='pt-10'>Dhanush</p>
             <p className='text-[#03B5AA]'>Front-end</p>
@@ -52,8 +52,8 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='pt-[2rem] pb-[4rem]'>
           <div className='px-20 py-[57px] rounded-2xl shadow-lg'>
-            <div className='bg-black rounded-full h-56 w-56'>
-              <Image src={suresh} alt="" />
+            <div className='h-56 w-56'>
+              <Image className="rounded-full" src={suresh} alt="" />
             </div>
             <p className='pt-10'>Suresh</p>
             <p className='text-[#03B5AA]'>Social Media <br/> and Content</p>
