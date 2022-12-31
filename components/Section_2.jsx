@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import img1 from '../assets/Section_2/whatsnew-img-1.svg'
-import img2 from '../assets/Section_2/whatsnew-img-2.svg'
-import img3 from '../assets/Section_2/whatsnew-img-3.svg'
+import img1 from '../public/assets/Section_2/whatsnew-img-1.svg'
+import img2 from '../public/assets/Section_2/whatsnew-img-2.svg'
+import img3 from '../public/assets/Section_2/whatsnew-img-3.svg'
 
 export default function Section_2() {
   return (

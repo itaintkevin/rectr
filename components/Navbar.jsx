@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
-import rectrMobileLogo from '../assets/Navbar/rectr-mobile-logo.svg'
-import mobileMenu from '../assets/Navbar/mobile-menu.svg'
+import rectrMobileLogo from '../public/assets/Navbar/rectr-mobile-logo.svg'
+import mobileMenu from '../public/assets/Navbar/mobile-menu.svg'
 import { motion } from "framer-motion"
 import { Link } from "react-scroll"
 

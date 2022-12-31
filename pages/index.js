@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import Navbar from '../src/components/Navbar'
-import Section_1 from '../src/components/Section_1'
-import Section_2 from '../src/components/Section_2'
-import Section_3 from '../src/components/Section_3'
-import Section_4 from '../src/components/Section_4'
-import Section_5 from '../src/components/Section_5'
-import Section_6 from '../src/components/Section_6'
-import Section_7 from '../src/components/Section_7'
-import Section_8 from '../src/components/Section_8'
+import Navbar from '../components/Navbar'
+import Section_1 from '../components/Section_1'
+import Section_2 from '../components/Section_2'
+import Section_3 from '../components/Section_3'
+import Section_4 from '../components/Section_4'
+import Section_5 from '../components/Section_5'
+import Section_6 from '../components/Section_6'
+import Section_7 from '../components/Section_7'
+import Section_8 from '../components/Section_8'
 
 export default function Home() {
   return (

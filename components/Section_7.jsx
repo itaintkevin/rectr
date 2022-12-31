@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Keyboard, Pagination, Navigation } from "swiper";
-import sresanjai from '../assets/Section_7/sresanjai.webp'
-import dhanush from '../assets/Section_7/dhanush.jpeg'
-import suresh from '../assets/Section_7/suresh.jpg'
+import sresanjai from '../public/assets/Section_7/sresanjai.webp'
+import dhanush from '../public/assets/Section_7/dhanush.jpeg'
+import suresh from '../public/assets/Section_7/suresh.jpg'
 
 export default function App() {
   return (

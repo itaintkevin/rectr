@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import speed from '../assets/Section_5/speed.svg'
-import security from '../assets/Section_5/security.svg'
-import ease from '../assets/Section_5/ease.svg'
-import triangle from '../assets/Section_5/triangle.svg'
-import arrow from '../assets/Section_5/arrow.svg'
+import speed from '../public/assets/Section_5/speed.svg'
+import security from '../public/assets/Section_5/security.svg'
+import ease from '../public/assets/Section_5/ease.svg'
+import triangle from '../public/assets/Section_5/triangle.svg'
+import arrow from '../public/assets/Section_5/arrow.svg'
 
 export default function Section_5() {
   return (

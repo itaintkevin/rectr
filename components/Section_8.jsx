@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import Image from 'next/image'
-import mail from '../assets/Section-8/mail-icon.svg'
-import money from '../assets/Section-8/money-icon.svg'
-import twitter from '../assets/Section-8/twitter-icon.svg'
-import insta from '../assets/Section-8/insta-icon.svg'
+import mail from '../public/assets/Section-8/mail-icon.svg'
+import money from '../public/assets/Section-8/money-icon.svg'
+import twitter from '../public/assets/Section-8/twitter-icon.svg'
+import insta from '../public/assets/Section-8/insta-icon.svg'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 import { motion } from "framer-motion"
 
