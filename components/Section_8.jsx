@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import mail from '../public/assets/Section-8/mail-icon.svg'
 import money from '../public/assets/Section-8/money-icon.svg'
-import twitter from '../public/assets/Section-8/twitter-icon.svg'
 import insta from '../public/assets/Section-8/insta-icon.svg'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 import { motion } from "framer-motion"
@@ -114,9 +114,14 @@ export default function Section_9() {
           </div>
         </div>
         <motion.div className='w-[15%]' variants={Animation}>
-          <Image className="pb-[1rem]" src={twitter} alt="Twitter Icon"/>
-          <Image className="py-[1rem]" src={mail} alt="Mail Icon"/>
-          <Image className="pt-[1rem]" src={insta} alt="Instagram Icon"/>
+          <button 
+            onClick={() => window.location = 'mailto:sresanjai.founder@rectr.in'}
+          >
+            <Image className="py-[1rem]" src={mail} alt="Mail Icon"/>
+          </button>
+          <Link href="https://instagram.com/rectr.in">
+            <Image className="pt-[1rem]" src={insta} alt="Instagram Icon"/>
+          </Link>
         </motion.div>
       </div>
       <motion.div className='flex flex-col items-center py-[1rem]' variants={Animation}>

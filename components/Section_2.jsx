@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import img1 from '../public/assets/Section_2/whatsnew-img-1.svg'
-import img2 from '../public/assets/Section_2/whatsnew-img-2.svg'
-import img3 from '../public/assets/Section_2/whatsnew-img-3.svg'
+import img1 from '../public/assets/Section_2/whatsnew-img-1.png'
+import img2 from '../public/assets/Section_2/whatsnew-img-2.png'
+import img3 from '../public/assets/Section_2/whatsnew-img-3.png'
 
 export default function Section_2() {
   return (
@@ -10,7 +10,7 @@ export default function Section_2() {
             Innovation in <br/> every tap
         </h1>
         <div className='pt-[2rem] pb-[3rem]'>
-            <Image className='h-[160px] w-[160px]' src={img1} alt=" "/>
+            <Image className='h-[160px] w-[180px]' src={img1} alt=" "/>
             <p className='text-[1.2rem] text-[#575050] pt-[1rem]'>Preicse search engine <br/> that reflects your search.</p>
         </div>
         <div className='flex flex-col items-end pb-[1rem] pr-[1.4rem]'>
