@@ -107,7 +107,8 @@ export default function Section_9() {
                   viewport={{ once: true, amount: 0.8 }}
                 >
                   <motion.p className='py-[0.5rem]' variants={dropAnimation}>For Now we accepting Rental house around <span className='font-bold'>Tamilnadu.</span></motion.p>
-                  <motion.p className='py-[0.5rem]' variants={dropAnimation}>Submit Your Property for Free.</motion.p>
+                  <motion.p className='py-[0.5rem]' variants={dropAnimation}>Submit Your Property for Free <Link href="https://forms.gle/X4HVW5itC3niWhB5A" className='underline animate-pulse'>Here!</Link>.</motion.p>
+                  {/* <motion.p><Link className='py-[0.5rem] underline animate-pulse' variants={dropAnimation} href="https://forms.gle/X4HVW5itC3niWhB5A">Click the link!</Link></motion.p> */}
                 </motion.div>
               }
             </motion.div>
