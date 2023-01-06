@@ -45,31 +45,31 @@ export default function Section_4() {
         <h2 className='text-[2.25rem] font-semibold pt-[5rem]'>3 step Process</h2>
         <div className='flex flex-col items-center py-[2rem]'>
             <div className='flex justify-end items-start w-full'>
-                <div>
+                <div className='ml-[7rem]'>
                     <div><Image src={ss1} alt=""/></div>
                     <p className='py-[1rem] text-center'>Search </p>
                 </div>
-                <div className='bg-[#5DC979] text-white rounded-full py-[1rem] px-[2.1rem] mx-[4.5rem]'>1</div>
+                <div className='bg-[#5DC979] text-white rounded-full py-[1rem] px-[2.1rem] mr-[1.5rem] ml-[1.5rem]'>1</div>
             </div>
             <p className='py-[2rem] text-center'>Use our effective search engine and filters to select your desired independent rental homes.</p>
         </div>
         <div className='flex flex-col items-center'>
             <div className='flex justify-end items-start w-full'>
-                <div>
+                <div className='ml-[7rem]'>
                     <div><Image src={ss2} alt=""/></div>
                     <p className='py-[1rem] text-center'>Register</p>
                 </div>
-                <div className='bg-[#5DC979] text-white rounded-full py-[1rem] px-[1.9rem] mx-[4.5rem]'>2</div>
+                <div className='bg-[#5DC979] text-white rounded-full py-[1rem] px-[1.9rem] mr-[1.5rem] ml-[1.5rem]'>2</div>
             </div>
             <p className='py-[2rem] text-center'>Click Register based on Owner/Tenant conditions.</p>
         </div>
         <div className='flex flex-col items-center'>
             <div className='flex justify-end items-start w-full'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center ml-[7rem]'>
                     <div><Image src={ss3} alt=""/></div>
                     <p className='py-[1rem]'>Scheduled-visit</p>
                 </div>
-                <div className='bg-[#5DC979] text-white rounded-full py-[1rem] px-[1.9rem] mx-[3.5rem]'>3</div>
+                <div className='bg-[#5DC979] text-white rounded-full py-[1rem] px-[1.9rem] mr-[1.5rem] ml-[1.5rem]'>3</div>
             </div>
             <p className='py-[2rem] text-center'>Book the Date & time of visiting the house in physical. Know each other. Deal Closed 🌟</p>
         </div>
